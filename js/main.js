@@ -1,7 +1,7 @@
 let indice = 1;
 const imgBack = document.querySelector('#backimg');
 
-imgBack.style.backgroundImage = `url('img/inet${indice}.jpg')`;
+imgBack.style.backgroundImage = `url('../img/inet${indice}.jpg')`;
 
 
 function cambiarImg(){
